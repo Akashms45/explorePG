@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>registration form</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="userreg.css"/>
+    </head>
+    <body>
+
+        <div class="container">
+            <h1>Register:</h1>
+            <div class="name">
+                <form action="registration.php">
+                    <div class="main-user-info">
+                        <div class="user-input-box">
+            <label>First name:</label>
+            <input type="text" name="firstname" size="15" maxlength="10"/>
+                   </div>
+        
+        
+            <div class="user-input-box">
+            <label>Last name:</label>
+            <input type="text" name="lastname" size="30" maxlength="20"/>
+            </div>
+
+            <div class="user-input-box">
+            <label>phone number:</label>
+            <input type="tel" name="countrycode" value="+91" size="1" maxlength="10"/>
+            </div>
+
+            <div class="user-input-box">
+            <label>address:</label><br/>
+            <textarea rows="5" cols="50" name="address"> </textarea>
+             </div>
+
+            <div class="user-input-box">
+            <label>e-mail:</label>
+            <input type="email" name="email" size="30" maxlength="20"/></div><br>
+<br><br>
+
+           <div class="gender">
+           <label>
+            Gender:
+            </label><br><br>
+            <input type="radio" name="gender" value="m"/>&nbsp; Male &nbsp;
+            <input type="radio" name="gender" value="f"/> &nbsp; Female &nbsp;
+            <input type="radio" name="gender" value="0"/>&nbsp; Other 
+            </div>
+                        
+            <div class="pwd">
+            <label>password:</label>
+            <input type="password" name="password" required/><br><br>
+            <label>confirm password:</label>
+            <input type="password" name="confirmpassword" required/><br><br>
+            <input type="submit" value="submit"/>
+                  </form>
+            </div>
+            </div>
+           </div>
+         </div>
+ </body>
+</html>

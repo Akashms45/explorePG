@@ -1,0 +1,13 @@
+.a1 input{
+    width:700px;
+    height:50px;
+    padding-left:20px;
+}
+.a2 input{
+    margin-top:20px;
+    width:70px;
+    height:50px;
+}
+body{
+    margin-top:100px;
+}
