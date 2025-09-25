@@ -57,39 +57,43 @@ Built using the **XAMPP stack**, the system manages three roles: **Admin, Owner,
 ---
 
 ## 🚀 Installation & Setup  
-
-### 1️⃣ Clone the Repository  
-Run the following command in your terminal:  
 ```bash
-git clone https://github.com/Akashms45/explorePG.git
 
-### 2️⃣ Move Project to XAMPP htdocs  
-Place the project folder inside your XAMPP `htdocs` directory:
-C:/xampp/htdocs/explorePG
-
----
-
-### 3️⃣ Start Services  
-- Open **XAMPP Control Panel**  
-- Start **Apache** and **MySQL**  
+1️⃣ Clone the Repository  
+  -Run the following command in your terminal:  
+  -git clone https://github.com/Akashms45/explorePG.git
 
 ---
 
-### 4️⃣ Import Database  
-- Open [phpMyAdmin](http://localhost/phpmyadmin)  
-- Create a new database (e.g., `explorepg`)  
-- Import the file **`online_hotel.sql`** from the repo  
+2️⃣ Move Project to XAMPP htdocs  
+  -Place the project folder inside your XAMPP `htdocs` directory:
+  -C:/xampp/htdocs/explorePG
 
 ---
 
-### 5️⃣ Configure Database Connection  
-Edit `config.php` or `connection.php` and update credentials:  
-```php
-$host = "localhost";
-$user = "root";
-$password = "";
-$dbname = "explorepg";
+3️⃣ Start Services  
+  - Open **XAMPP Control Panel**  
+  - Start **Apache** and **MySQL**  
 
-### 6️⃣ Run the Project
-Open your browser and visit:
-http://localhost/explorePG/
+---
+
+4️⃣ Import Database  
+  - Open [phpMyAdmin](http://localhost/phpmyadmin)  
+  - Create a new database (e.g., `explorepg`)  
+  - Import the file **`online_hotel.sql`** from the repo  
+
+---
+
+5️⃣ Configure Database Connection  
+  Edit `config.php` or `connection.php` and update credentials:  
+  ```php
+  $host = "localhost";
+  $user = "root";
+  $password = "";
+  $dbname = "explorepg";
+
+---
+
+6️⃣ Run the Project
+  Open your browser and visit:
+  http://localhost/explorePG/
