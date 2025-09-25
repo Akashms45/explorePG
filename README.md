@@ -95,5 +95,5 @@ Built using the **XAMPP stack**, the system manages three roles: **Admin, Owner,
 ---
 
 6️⃣ Run the Project
-  Open your browser and visit:
-  http://localhost/explorePG/
+  -Open your browser and visit:
+  -http://localhost/explorePG/
